@@ -39,7 +39,26 @@ public class ProgramaHora {
     
     hora = entrada.nextInt();
     
+    // Creo el bucle con un IF
     
+    if ( (hora >=6) && (hora <= 12)){
+      
+      System.out.println("Buenos días ");
+      
+     
+    } if ((hora >= 13 )&& ( hora <= 20)){
+      
+      System.out.println("Buenas tardes");
+      
+      
+    } if ((hora >=21) && (hora <=24) || (hora >=1) && (hora <=5)){
+      
+      System.out.println("Buenas noches");
+      
+      
+      // Si la hora es mayor que 24 o menor que 0 la hora no es correcta
+    }if ((hora >= 24) || (hora <=0))
+      System.out.println("No has introducido una hora correcta");
     
   }
   
