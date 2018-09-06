@@ -5,6 +5,10 @@
  */
 package programahora;
 
+// Importo el paquete java.util para poder utilizar la clase Scanner
+
+import java.util.*;
+
 /**
  * Realiza un programa que pida una hora por teclado y que muestre luego buenos
  * días, buenas tardes o buenas noches según la hora. Se utilizarán los tramos
@@ -20,6 +24,11 @@ public class ProgramaHora {
    */
   public static void main(String[] args) {
     // TODO code application logic here
+    
+    //Creo un objeto de la clase Scanner
+    
+    Scanner entrada = new Scanner(System.in);
+    
   }
   
 }
