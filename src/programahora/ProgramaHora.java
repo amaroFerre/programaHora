@@ -29,6 +29,12 @@ public class ProgramaHora {
     
     Scanner entrada = new Scanner(System.in);
     
+    // Declaro una variable de tipo entero 
+    
+    int hora;
+    
+    
+    
   }
   
 }
