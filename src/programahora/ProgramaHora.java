@@ -33,6 +33,12 @@ public class ProgramaHora {
     
     int hora;
     
+    // Pido la hora por teclado
+    
+    System.out.println("Introduce la hora ");
+    
+    hora = entrada.nextInt();
+    
     
     
   }
